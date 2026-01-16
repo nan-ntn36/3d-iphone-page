@@ -1,8 +1,12 @@
+import { Hero, Navbar, HightLights } from './components';
+
 const App = () => {
   return (
-    <div className="text-3xl font-bold underline flex justify-center items-center h-screen">
-      TEST
-    </div>
+    <main className="bg-black">
+      <Navbar />
+      <Hero />
+      <HightLights />
+    </main>
   );
 };
 
